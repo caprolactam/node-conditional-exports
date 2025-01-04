@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx ./index.ts",
+    "dev:workerd": "tsx -C workerd ./index.ts",
+    "dev:node": "tsx -C node ./index.ts",
+    "dev:browser": "tsx -C browser ./index.ts"
+  },
+  "dependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "workspaces": [
+    "packages/print"
+  ]
+}

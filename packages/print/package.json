@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "exports": {
+    ".": {
+      "workerd": "./for-workerd.ts",
+      "node": "./for-node.ts",
+      "browser": "./for-browser.ts"
+    }
+  }
+}

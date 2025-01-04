@@ -1,0 +1,13 @@
+{
+  "include": ["**/*.ts"],
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "allowJs": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
