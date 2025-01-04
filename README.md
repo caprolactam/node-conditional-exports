@@ -5,7 +5,7 @@ This repository test which key takes precedence within `exports` objects, when u
 ```bash
 npm install
 npm run dev
-// try npm run dev:wokerd or something.
+// try npm run dev:workerd or something.
 ```
 
 ## The expected
@@ -13,7 +13,7 @@ npm run dev
 The expected behavior is as follows:
 
 When run `npm run dev:workerd`, it outputs:
-**"This is worked environment!"**
+**"This is workerd environment!"**
 
 When run `npm run dev:node`, it outputs:
 **"This is node environment!"**
